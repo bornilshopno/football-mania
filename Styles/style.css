@@ -1,0 +1,152 @@
+*{
+    margin:0;
+    padding:0;
+}
+
+@import url('https://fonts.googleapis.com/css2?family=Inter:opsz@14..32&display=swap');
+
+/* shared styles */
+
+body{
+      font-family: "Inter", sans-serif;
+      font-optical-sizing: auto;
+      font-weight: 400;
+      font-style: normal;
+    }
+img{
+    width:100%;
+}    
+.texts{
+    font-size:16px;
+    color:#6c6c6c;
+    padding: 10px 0;
+}
+
+.flex{
+    display:flex;
+    align-items: center;
+    justify-content: space-between;
+}
+.btn-primary{
+    background-color:#e02c6d;
+    color:#ffffff;
+    gap:8px;
+    padding:12px 24px;
+    border:none;
+}
+.btn-primary:hover{
+    background-color:#fff;
+    color:#e02c6d;
+}
+
+/* section-wise styles */
+/* Nav Section */
+.nav-sec{
+    background-color: #2d25a0;
+    border: 1px solid #2d25a0;
+}
+
+.nav-bar{
+    width:80%;
+    margin:40px auto 0px;
+    }
+
+.hamburger{
+    color:white;
+    display:none;
+}
+.hamburger:hover{
+    color:#e02c6d;  
+}
+
+ul{
+    list-style: none;
+    gap:35px;
+    
+}
+ul li a{
+    text-decoration: none;
+    font-size:16px;
+    color:#ffffff;
+}
+
+/* banner section styles */
+
+.banner-sec{
+    background-color:#2d25a0;
+    border:1px solid #2d25a0;
+}
+.banner{
+    width:80%;
+    margin:40px auto;
+    }
+.banner>div{
+    width:45%;
+}
+.brand{
+    font-size:50px;
+    color:white;
+    margin:40px auto;
+}
+
+/* player section styles */
+ .player-sec{
+    background-color:#ffffff;
+ }
+
+ .players{
+    width:80%;
+    margin:0px auto;
+    padding:40px 0;
+    display:grid;
+    grid-template-columns: repeat(3,1fr);
+    gap: 10px;
+ }
+ .player-info-card{
+    padding:10px;
+    box-shadow: 4px 4px 4px 4px rgba(0, 0, 0, 0.2);
+ }
+ .player-info-card img{
+    transition-duration: 2s;
+    transition-delay: 2s;
+ }
+ .player-info-card img:hover{
+    transform: rotate(360deg);
+ }
+ .player-info-card h2{
+    font-size:20px;
+    font-weight:900;
+    padding:10px 0;
+ }
+
+ /* Highight Section */
+
+ .highlights{
+    width:80%;
+    margin:40px auto;
+ }
+ .highlights>div{
+    width:45%;
+ }
+ .highlights h1{
+    font-size: 40px;
+    font-weight: 700;
+ }
+ .text-margin{
+    margin-bottom:20px;
+ }
+
+ /* Footer */
+ footer{
+    width:30%;
+    margin:80px auto 0;
+    text-align: center;
+ }
+ .social-icons {
+    width:45%;
+    margin: 20px auto;
+ }
+ .social-icons img{
+    width:17%;
+    justify-content:space-around;
+ }
